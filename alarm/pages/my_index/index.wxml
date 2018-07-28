@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='list-box'>
+    <view class='list'>
+        <view>
+          <text class='list-title'>6:00</text>
+          <text class='list-sub-title'>AM</text>
+          <text class='list-detail'>Alarm</text>
+        </view>
+        <view class='list-switch-box'>
+          <switch class='right-switch' bindchange='switchChange'></switch>
+        </view>
+      </view>
+    <view class='list-line'></view>
+  </view>
+
+  <view class='list-box'>
+    <view class='list'>
+        <view>
+          <text class='list-title'>6:00</text>
+          <text class='list-sub-title'>AM</text>
+          <text class='list-detail'>Alarm</text>
+        </view>
+        <view class='list-switch-box'>
+          <switch class='right-switch' bindchange='switchChange'></switch>
+        </view>
+      </view>
+    <view class='list-line'></view>
+  </view>
+
+  <view class='list-box'>
+    <view class='list'>
+        <view>
+          <text class='list-title'>6:00</text>
+          <text class='list-sub-title'>AM</text>
+          <text class='list-detail'>Alarm</text>
+        </view>
+        <view class='list-switch-box'>
+          <switch class='right-switch' bindchange='switchChange'></switch>
+        </view>
+      </view>
+    <view class='list-line'></view>
+  </view>
+
+  <view class='list-box'>
+    <view class='list'>
+        <view>
+          <text class='list-title'>6:00</text>
+          <text class='list-sub-title'>AM</text>
+          <text class='list-detail'>Alarm</text>
+        </view>
+        <view class='list-switch-box'>
+          <switch class='right-switch' bindchange='switchChange'></switch>
+        </view>
+      </view>
+    <view class='list-line'></view>
+  </view>
+</view>

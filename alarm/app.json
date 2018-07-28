@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/my_index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Alarm",
+    "navigationBarTextStyle":"black"
+  }
+}
