@@ -1,0 +1,62 @@
+/**index.wxss**/
+page {
+background-color: rgb(255, 255, 212);
+}
+
+.showView {
+}
+
+.ring {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.ring-text {
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.ring-image {
+  width: 80px;
+  height: 80px;
+}
+
+.win-num {
+  color: red;
+}
+
+.win-text {
+  display: block;
+  text-align: center;
+}
+
+.choose-view {
+  width: 90%;
+  height: 250px;
+  display: block;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.choose-view-title {
+
+}
+
+.choose-view-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.again {
+  width: 80%;
+  margin-top: 24px;
+  color: gray;
+  background-color: yellow;
+}

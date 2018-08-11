@@ -1,0 +1,26 @@
+<!--index.wxml-->
+
+<view class='showView'>
+  <view>
+    <text class='win-text'>
+      你已经获胜了<text class='win-num'>{{winNum}}</text>次
+    </text>
+
+    <view class='ring'>
+      <image src='{{imageAIScr}}' class='ring-image'></image>
+      <text class='ring-text'>{{prompt}}</text>
+      <image src='{{imageUserScr}}' class='ring-image'></image>
+    </view>
+  </view>
+
+  <view class='choose-view'>
+    <text class='choose-view-title'>出拳吧，少年</text>
+    <view class='choose-view-list'>
+      <block wx:for="{{srcs}}" wx:key="this">
+        <image src='{{ srcs[index] }}' class='ring-image' bindtap='changeForChoose' id='{{index}}'>{{item}}</image>
+      </block>
+    </view>
+
+    <button class='again' bindtap='again'>再来</button>
+  </view>
+</view>
