@@ -6,7 +6,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "热映电影",
+    "navigationBarTitleText": "豆瓣电影",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
