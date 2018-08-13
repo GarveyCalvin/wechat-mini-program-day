@@ -4,16 +4,16 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.2.1",
+	"libVersion": "2.2.2",
 	"appid": "",
-	"projectname": "roshambo",
+	"projectname": "douban_movie",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
